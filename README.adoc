@@ -1,0 +1,18 @@
+= owochecker
+Mariell Hoversholm <proximyst@proximyst.com>
+v1.0
+
+Checker for link:https://owo.whats-th.is/[OwO Whats This?]'s domains.
+
+== Building
+
+Run `cargo build --release`. The release binary will by default launch
+on `0:8000`/`::0:8000`.
+
+== SSL
+
+Reverse proxy it. Rocket does not have the SSL feature enabled.
+
+== Licence
+
+This project is licensed under the link:LICENCE[BSD 3-Clause Licence].
